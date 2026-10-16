@@ -41,3 +41,7 @@ print(not var) # Not operator
 print((5 > 3) and (8 > 9)) # And operator
 
 print((5 > 3) or (8 > 7)) # or operator
+
+ans1 = int(5 + 10.0) # type casting
+
+print(ans1, type(ans1))
