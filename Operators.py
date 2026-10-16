@@ -10,8 +10,6 @@ print(a%b) # modulo for calculating remainder
 print(a**b) # calculating power
 
 # relational operators
-a = 10
-b = 5
 
 print(a < b)
 print(a > b)
