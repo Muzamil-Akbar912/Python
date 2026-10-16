@@ -15,3 +15,4 @@ print(type(isValid))
 
 # python is case sensitive.
 # In python, indentation is important.
+# Keywords are reserved words, whose meaning does not change
