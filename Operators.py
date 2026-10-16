@@ -45,3 +45,7 @@ print((5 > 3) or (8 > 7)) # or operator
 ans1 = int(5 + 10.0) # type casting
 
 print(ans1, type(ans1))
+
+ans2 = 5 + 10.0 # type conversion
+
+print(ans2, type(ans2))
