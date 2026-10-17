@@ -16,3 +16,16 @@ while(i <= 15):
     i += 1
 
 print("Outside loop now.......")
+
+# Continue Keyword (used for skiping the current iteration)
+
+j = 1
+
+while(j <= 10):
+    if(j % 3 == 0):
+        j += 1
+        continue
+    print(j)
+    j +=1
+
+print("Outside loop now.......")
