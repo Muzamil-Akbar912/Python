@@ -42,3 +42,20 @@ if('x' in str):
     print("x exists in str")
 else:
     print("x does exists in str")
+
+# range(start, stop, step) -> it generates sequences
+
+for k in range(5):
+    print(k)
+
+print("Outside loop now.......")
+
+for k in range(1, 10):
+    print(k)
+
+print("Outside loop now.......")
+
+for k in range(1, 10, 2):
+    print(k)
+
+print("Outside loop now.......")
