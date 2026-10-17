@@ -29,3 +29,11 @@ while(j <= 10):
     j +=1
 
 print("Outside loop now.......")
+
+# for loop (used for sequential traversal)
+
+str = "hello"
+
+# in => Membership operator(used for checking presence of value)
+for var in str:
+    print(var)
