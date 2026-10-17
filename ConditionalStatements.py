@@ -35,3 +35,17 @@ else:
         print("wrong username")
     else:
         print("wrong password")
+
+# Match case (alter native of if, if else and elif)
+
+color1 = input("Enter color1: ")
+
+match color1:
+    case "green":
+        print("GO")
+    case "yellow":
+        print("LOOK")
+    case "red":
+        print("STOP")
+    case _: # default case
+        print("Wrong color!") 
