@@ -23,3 +23,11 @@ def cal_avg(a, b, c):
 
 result = cal_avg(10, 20, 30)
 print(result)
+
+# default parameters
+def addition(a, b = 1):
+    res = a + b
+    return res
+
+ans1 = addition(7)
+print(ans1)
