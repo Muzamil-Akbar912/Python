@@ -37,3 +37,8 @@ str = "hello"
 # in => Membership operator(used for checking presence of value)
 for var in str:
     print(var)
+
+if('x' in str):
+    print("x exists in str")
+else:
+    print("x does exists in str")
