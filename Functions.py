@@ -24,10 +24,21 @@ def cal_avg(a, b, c):
 result = cal_avg(10, 20, 30)
 print(result)
 
-# default parameters
+# default parameters (yeh last parameter mai assign ki jaati hai na ki first parameter mai)
+
 def addition(a, b = 1):
     res = a + b
     return res
 
 ans1 = addition(7)
 print(ans1)
+
+# Lambda function (we can only have single expression, used in higher order functions)
+
+sum2 = lambda a,b: a+b
+
+print(sum2(4, 5))
+
+avg = lambda a, b, c : (a+b+c)/3
+
+print(avg(10, 20, 30))
