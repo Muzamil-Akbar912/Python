@@ -1,3 +1,5 @@
+# In python, Strings are immutable(does not change)
+
 word1 = "I love"
 word2 = "Python"
 
