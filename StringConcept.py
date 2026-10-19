@@ -6,3 +6,8 @@ print(len(word1))
 
 # concatenate
 print(word1 + " " + word2)
+
+# indexing
+
+for ch in word2:
+    print(ch)
