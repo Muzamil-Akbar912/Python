@@ -1,4 +1,8 @@
-word = "Python"
+word1 = "I love"
+word2 = "Python"
 
 # length of string
-print(len(word))
+print(len(word1))
+
+# concatenate
+print(word1 + " " + word2)
