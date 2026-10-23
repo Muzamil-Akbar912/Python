@@ -41,5 +41,9 @@ print("Language is {}".format("Python"))
 print("Sum of {} and {} is {}".format(a, b, sum))
 
 # index based formatting
+
 print("Sum of {0} and {1} is {2}".format(a, b, sum))
 print("Sum of {1} and {0} is {2}".format(a, b, sum))
+
+# value based formatting
+print("Values of variables is {x} and {y}".format(x = 11, y = 10))
