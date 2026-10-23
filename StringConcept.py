@@ -32,9 +32,14 @@ print(str[-4:-2])
 # 1. format()  -> python 3
 # 2. f-strings 
 
+# Normal formatting
 a = 5
 b = 10
 sum = a + b
 
 print("Language is {}".format("Python"))
-print("Sum of {} amd {} is {}".format(a, b, sum))
+print("Sum of {} and {} is {}".format(a, b, sum))
+
+# index based formatting
+print("Sum of {0} and {1} is {2}".format(a, b, sum))
+print("Sum of {1} and {0} is {2}".format(a, b, sum))
