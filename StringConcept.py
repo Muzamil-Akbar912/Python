@@ -27,3 +27,14 @@ print(str[0:len(str)])
 # Slicing using negative index
 
 print(str[-4:-2])
+
+# String formating (used for dynamic strings), methods we use :
+# 1. format()  -> python 3
+# 2. f-strings 
+
+a = 5
+b = 10
+sum = a + b
+
+print("Language is {}".format("Python"))
+print("Sum of {} amd {} is {}".format(a, b, sum))
