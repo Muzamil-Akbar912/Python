@@ -32,3 +32,12 @@ print(info.items())
 
 print(info.get("name"))
 print(info.get("PI"))
+
+# 5. update() -> add new key value pair
+
+info.update({
+    "city": "Kashmir",
+    "contact no.": 9622104513
+})
+
+print(info)
