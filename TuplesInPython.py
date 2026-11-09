@@ -15,3 +15,10 @@ print(type(tup2))
 # slicing in tuples
 print(tup[1:3])
 print(tup[1:len(tup)])
+
+# some methods used in tuples
+
+# 1. index(val) -> returns first occurance idx
+
+t = (1, 2, 2, 2, 3, 4, 5, 6,)
+print(t.index(2))
