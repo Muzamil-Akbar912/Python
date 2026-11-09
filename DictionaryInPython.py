@@ -27,3 +27,8 @@ print(dict_values)
 # 3. items() -> print all key value pairs
 
 print(info.items())
+
+# 4. get(val) -> returns value according to key but if key does not exist we get none
+
+print(info.get("name"))
+print(info.get("PI"))
