@@ -26,3 +26,11 @@ print(num)
 
 num.insert(3, 17)
 print(num)
+
+# 3. sort() -> sort the list in ascending or descending order
+
+num.sort() # ascending order
+print(num)
+
+num.sort(reverse=True)
+print(num)
