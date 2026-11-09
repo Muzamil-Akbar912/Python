@@ -18,3 +18,8 @@ print(info["cgpa"])
 
 dict_keys = list(info.keys())
 print(dict_keys)
+
+# 2. values() -> print all values
+
+dict_values = list(info.values())
+print(dict_values)
