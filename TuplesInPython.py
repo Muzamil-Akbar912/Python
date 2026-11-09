@@ -11,3 +11,7 @@ print(type(tup1))
 
 tup2 = (1,)
 print(type(tup2))
+
+# slicing in tuples
+print(tup[1:3])
+print(tup[1:len(tup)])
