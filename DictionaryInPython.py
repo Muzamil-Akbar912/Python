@@ -23,3 +23,7 @@ print(dict_keys)
 
 dict_values = list(info.values())
 print(dict_values)
+
+# 3. items() -> print all key value pairs
+
+print(info.items())
