@@ -11,3 +11,10 @@ print(type(info))
 
 info["cgpa"] = 8.4
 print(info["cgpa"])
+
+# some methods in dictionary
+
+# 1. keys() -> print all keys
+
+dict_keys = list(info.keys())
+print(dict_keys)
