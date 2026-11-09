@@ -22,3 +22,6 @@ print(tup[1:len(tup)])
 
 t = (1, 2, 2, 2, 3, 4, 5, 6,)
 print(t.index(2))
+
+# 2. count(val) -> prints count of any value
+print(t.count(2))
