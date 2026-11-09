@@ -24,3 +24,9 @@ print(s)
 
 s.clear()
 print(s)
+
+# 4. pop() -> remove random value
+
+s1 = {1, 2, 2, 3, 4, 5}
+s1.pop()
+print(s1)
