@@ -16,9 +16,13 @@ print(marks[3:len(marks)])
 
 # some functions in lists
 
-# 1. append() -> add value in last of list
+# 1. append(value) -> add value in last of list
 
 num = [1, 3, 5, 7, 9]
 num.append(11)
 print(num)
 
+# 2. insert(index, value) -> insert value in any index
+
+num.insert(3, 17)
+print(num)
