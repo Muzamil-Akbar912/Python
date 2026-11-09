@@ -14,3 +14,13 @@ print(type(empty_set))
 
 s.add(12)
 print(s) 
+
+# 2. remove(val)
+
+s.remove(12)
+print(s)
+
+# 3. clear(val)
+
+s.clear()
+print(s)
