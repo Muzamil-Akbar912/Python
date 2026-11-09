@@ -37,3 +37,7 @@ s2 = {11, 12, 34}
 s3 = s1.union(s2)
 print(s3)
 
+# 6. intersection() 
+s4 = {1, 2, 5, 11, 16}
+s5 = s1.intersection(s4)
+print(s5)
